@@ -1,6 +1,7 @@
-import fresh_tomatoes
-import media
+import fresh_tomatoes  # Function to create and style webpage from objects
+import media  # Function with Class Movie
 
+# Create Movie Objects
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Post",   # NOQA
@@ -68,4 +69,5 @@ the_avengers = media.Movie("The Avengers",
 
 
 movies = [the_avengers, the_hobbit_3, dark_knight, war_room, x_men, kung_fu_3]
+# Groups Movie objects into a list
 fresh_tomatoes.open_movies_page(movies)

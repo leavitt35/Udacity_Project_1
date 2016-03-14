@@ -1,15 +1,16 @@
 # entertainment_center
-***
+
 entertainment_center is a python code which takes a list of movies and exports it to an html website.
 
 ## Contents
-Movies Folder should contain the following:
+*Movies* Folder should contain the following in order to work properly:
 - entertainment_center.py
 - media.py
 - fresh_tomatoes.py
+- README.md
 
 ## Quick Start
-Verify that all content items are in the __Movies__ folder.  Open __entertainment_center.py__ using __IDLE__.  Then run module.
+Download zip file of *Movies* folder.  Open *entertainment_center.py* using **IDLE**.  Then run module.  Module will open up a web browser with newly styled html page.
 
 ## Versions
 Should be using Python Version 2.7.10.  Using a later version may cause the unexpected results.
