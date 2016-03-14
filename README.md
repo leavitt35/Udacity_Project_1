@@ -14,3 +14,6 @@ Download zip file of *Movies* folder.  Open *entertainment_center.py* using **ID
 
 ## Versions
 Should be using Python Version 2.7.10.  Using a later version may cause the unexpected results.
+
+## Contributions
+Files were created in conjuction with Udacity's *Programming Foundations with Python* course
