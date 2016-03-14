@@ -1,13 +1,14 @@
 import fresh_tomatoes  # Function to create and style webpage from objects
+
 import media  # Function with Class Movie
 
-# Create Movie Objects
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Post",   # NOQA
-                     "http://www.youtube.com/watch?v=-9ceBgWV8io",
-                     "k",
-                     "")
+# Creates Movie Objects which follow the following form:
+# (title,
+# storyline,
+# poster_image_url,
+# trailer_youtube_url,
+# director,
+# release_year)
 
 the_hobbit_3 = media.Movie("The Hobbit: The Battle of the Five Armies",
                            "Bilbo and Company are forced to engage in a war"
@@ -57,6 +58,7 @@ x_men = media.Movie("X-Men: Days of Future Past",
                     "https://www.youtube.com/watch?v=pK2zYHWDZKo",
                     "Bryan Singer",
                     "2014")
+
 the_avengers = media.Movie("The Avengers",
                            "Earth's mightiest heroes must come together and"
                            " learn to fight as a team if they are to stop"
@@ -71,3 +73,4 @@ the_avengers = media.Movie("The Avengers",
 movies = [the_avengers, the_hobbit_3, dark_knight, war_room, x_men, kung_fu_3]
 # Groups Movie objects into a list
 fresh_tomatoes.open_movies_page(movies)
+# Uses movie list as input to generate an HTML file and open it in the browser
